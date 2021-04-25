@@ -1,0 +1,32 @@
+/*Convencion Buenas Practicas
+    1. Posicionamiento (static, absolute, relative, fixed)
+    2. Modelo de Caja (Box model margin, padding, tamaño)
+    3. Tipografia (fUentes)
+    4. Tema visuales (radio box,shadow box)
+    5. Otros (Nuevas reglas de CSS) 
+*/
+:root {
+    /* Variables de Colores */
+    --bitcoin-orange:#F7931A;
+    --soft-orange:#FFE9D5;
+    --secondary-blue:#1A9AF7;
+    --soft-blue:#E7F5FF;
+    --warm-black:#201E1C;
+    --warm-black-1:#282623;
+    --grey:#BABABA;
+    --off-white:#FAF8F7;
+    --just-white:#FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    /* Tamaño y tipo de fuente base */
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
