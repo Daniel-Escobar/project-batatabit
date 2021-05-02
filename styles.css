@@ -50,6 +50,11 @@ footer .left ul {
   line-height: 1.8rem;
   list-style: none;
 }
+.right img {
+  width: 125px;
+  height: 125px;
+  /* border-radius: 50px; */
+}
 .left li {
   margin: 10px 0;
 }
