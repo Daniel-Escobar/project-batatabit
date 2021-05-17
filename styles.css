@@ -379,3 +379,34 @@ main {
   color: var(--just-white);
   padding-top: 65px;
 }
+
+.main-plans-container{
+  width: 100%;
+  min-width: 320px;
+  text-align: center;
+  padding-bottom: 65px;
+}
+
+.plans--title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.plans--title h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--warm-black);
+  padding-top: 50px;
+}
+
+.plans--title p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  padding-top: 30px;
+  color: #757575;
+}
